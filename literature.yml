@@ -1,0 +1,13 @@
+# Čia yra literatūros šarasas (LaTeX vadinamas bibliografija)
+# Galima naudoti ir seną .bib formatą, bet šitas man atrodo geresnis
+# Dokumentacija: https://github.com/typst/hayagriva/blob/main/docs/file-format.md
+
+knygos_pavadinimas:
+    type: Book
+    title: Gražus Knygos Pavadinimas
+    author: Autorius
+    volume: skyrius, jei neklystu
+    page-total: 123
+    date: 1601-01-24
+
+
