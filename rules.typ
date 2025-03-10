@@ -4,7 +4,7 @@
 // į kitus failus. f() paima 'it', pakeičia jį pagal 'set' ir 'show' ir galų gale nupiešia
 
 #let rules(it) = {
-
+  
     // ===== Lapas ===== 
     set page(
         margin: ( top: 2cm, bottom: 2cm, right: 1cm, left: 3cm ),
@@ -87,6 +87,8 @@
             #text(weight: "bold")[#it]
         ]
     ]
-    
+
+    set table(align: left)
+
     it
 }

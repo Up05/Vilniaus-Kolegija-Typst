@@ -13,7 +13,7 @@ Informacinių sistemų katedra
 #v(20mm) // vertikalus tarpas
 
 #text(size: 16pt, weight: "bold")[
-DOKUMENTO PAVADINIMAS
+ORGANIZACIJOS IS FUNKCINIAI REIKALAVIMAI
 ]
 
 Praktinis darbas
@@ -34,7 +34,7 @@ INFORMACINĖS SISTEMOS (IS24 grupė)
     align: left,
     [], [STUDENTAI], [], [AUGUSTINAS JAZGEVIČIUS],
     [], [], [#today.display()], [],
-    [], [DĖSTYTOJA], [], [lekt. Vardas PAVARDĖ],
+    [], [DĖSTYTOJA], [], [doc. dr. Tatjana LIOGIENĖ],
     [], [], [], [],
 )
 
