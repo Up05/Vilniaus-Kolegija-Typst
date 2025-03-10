@@ -13,10 +13,10 @@ Informacinių sistemų katedra
 #v(20mm) // vertikalus tarpas
 
 #text(size: 16pt, weight: "bold")[
-DOKUMENTO PAVADINIMAS
+Struktūrinio programavimo kursinis darbas
 ]
 
-Praktinis darbas
+Kursinis darbas
 
 #v(10mm)
 
@@ -34,7 +34,7 @@ INFORMACINĖS SISTEMOS (IS24 grupė)
     align: left,
     [], [STUDENTAI], [], [AUGUSTINAS JAZGEVIČIUS],
     [], [], [#today.display()], [],
-    [], [DĖSTYTOJA], [], [lekt. Vardas PAVARDĖ],
+    [], [DĖSTYTOJA], [], [lekt. Airina SAVICKAITĖ],
     [], [], [], [],
 )
 
