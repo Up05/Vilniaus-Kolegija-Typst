@@ -88,5 +88,9 @@
         ]
     ]
     
+    // ===== Lentelės ===== 
+    set table(align: left)
+    // show table.cell.where(y: 0): strong    Just use *text* inside the table.header, this affects the title page...
+
     it
 }

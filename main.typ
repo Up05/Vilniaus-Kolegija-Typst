@@ -12,7 +12,8 @@
 = Skyrius
 == Poskyris
 
-#lorem(50)
+// #h(length) funkcija - (čia pirmos) pastraipos atitraukimas nuo kairės, deja, kol kas, labai sudėtinga padaryti tai automatiškai.
+#h(1.27cm) #lorem(50)
 
 #figure(
     image("nuotrauka.png"),
