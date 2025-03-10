@@ -35,3 +35,12 @@ Vilniaus-Kolegija-Typst:
 
 Aš, asmeniškai, naudoju i3, Neovim(kaarmu/typst.vim), zathura ir komandų eilutės typst versiją: ![pavyzdys](./example.png)
 *Taip, aš irgi pamačiau, kad parašiau „Wikimedijos Foundation“, aš programuotojas, ne koks rašytojas!*
+
+## Darbo pavyzdys
+
+Dar sukūriau [„example1“ šaką](https://github.com/Up05/Vilniaus-Kolegija-Typst/tree/example1).  
+Čia yra vienas iš praktinių darbų (su laisva tema, kurios neverta keisti po pirmo(praeito) pusmečio),
+pagrinde, aš jį parašiau su typst, taigi, jei norit pavyzdžio, prašom.
+
+Šiandien parašiau ir dar vieną darbą, tai jis bus [„example2“ šakoje](https://github.com/Up05/Vilniaus-Kolegija-Typst/tree/example2).   
+Čia mano programos pristatymams struktūriniam programavimui.
