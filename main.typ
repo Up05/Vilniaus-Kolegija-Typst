@@ -16,7 +16,7 @@
 #h(1.27cm) #lorem(50)
 
 #figure(
-    image("nuotrauka.png"),
+    image("example.png"),
     caption: [ Bet kokia nuotrauka ]
 )
 
