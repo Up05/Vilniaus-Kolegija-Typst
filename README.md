@@ -1,7 +1,7 @@
 # Pradinis typst darbas skirtas Vilniaus kolegijos dokumentams
 
 [Typst](https://typst.app) yra moderni, paprasta ir stabili Microsoft Word ir LaTeX alternatyva. 
-Leidžia dokumentus rašyti tekto failuose, veikia su visomis didžiosiomis operacinėmis sistemomis
+Ji leidžia dokumentus rašyti tekto failuose, veikia su visomis didžiosiomis operacinėmis sistemomis
 ir, šiaip, mano nuomone, liuksiškas įrankis.
 
 # Naudojimas
@@ -33,4 +33,5 @@ Vilniaus-Kolegija-Typst:
 
 # Pavyzdys
 
-Aš, asmeniškai, naudoju i3, Neovim(kaarmu/typst.vim) ir komandų eilutės typst versiją: ![pavyzdys](./example.png)
+Aš, asmeniškai, naudoju i3, Neovim(kaarmu/typst.vim), zathura ir komandų eilutės typst versiją: ![pavyzdys](./example.png)
+*Taip, aš irgi pamačiau, kad parašiau „Wikimedijos Foundation“, aš programuotojas, ne koks rašytojas!*
