@@ -23,7 +23,7 @@
 + Panagrinėti pasirinktą veiklos sritį, sudaryti pirmo ir, jei reiks, antro lygmens DFD.
 + Atskleisti problemas esančias nagrinėjamoje veiklos srityje.
 + Sudaryti bent trijų IS naudotojų sąrašą.
-
++ Nubraižyti UML funkcijų diagramą ir detalizuoti kiekvieną galimą veiksmą.
 
 = VEIKLOS ANALIZĖ
 
@@ -245,11 +245,33 @@ Wikimedia API naudotojai:
     post: none
 )
 
-// #pagebreak()
-// = Išvados
-// ??? 
+#pagebreak()
+
+= Išvados
+
++ Aprašius organizacijos veiklą, galima pamatyti, kad organizacijos misija yra palaikyti viešos informacijos šaltinius internete, nes išskyrūs tai, Wikimedia Foundation dar tik palaiko bendruomenę.
++ Grafiškai aprašius organizacijos modelį, galima paskirstyti klientus į dvi kategorijas: žmonės ir programinė įranga. Programinei įrangai priklauso Wikimedia Enterprise API naudotojai, o žmonėms Vikių puslapių lankytojus ir kūrėjus, savanorius.
++ Nubraižius nulinio lygio duomenų srautų diagramą, jau matosi, kad Vikių palaikymas sudaro tik dvi organizacijos dalis, dar yra Finansai ir administracija, teisė ir augimas.
++ Išnagrinėjus pirmo lygio DFD, pasimato cikliškas Wikimedia Enterprise skyriaus vidus. Čia Pauslaugų diegimas Informacinėje sistemoje diegia atnaujinimus, IS automatiškai daro suvestines, kurias gauna Administracija, kuri tada Paslaugų diegimui teikia pastabas.
++ Sudarus dabartinės Wikimedia Enterprise būsenos BPMN diagramą, matome, kad procesai kreipiasi į duomenų bazes daug daugiau nei reikia, tiesiog apkeitūs patikrinimo proceesus vietomis galima būtų išvengti 50% užklausų ir galutinis rezultatas nepasikeistų.
++ Sudarius naudotojų sąrašą, galima įsitikinti, kad tikrai organizacija turi du naudotojų tipus: programinė įranga ir žmonės.
++ Nubraižius UML diagrama, galima teigti kad yra trys veiksmai bendri visiems naudotojams: straipsnių sąrašo, istorijos ir pačios informacijos peržiūrėjimas, nes visi kiti yra bendri tik vienam arba dviems naudotojams, o pavyzdžiui, API naudotojai neturi galimybės prisijungti, jiems reikia pridėti autentifikacijos žetoną prie užklausos antraščių.
 
 
+#pagebreak()
+
+#align(center)[ #text(size: 14pt, weight: "bold")[ LITERATŪROS SĄRAŠAS ] ]
+
++ Wikimedia Stategic Planning. (2011). _Wikimedia movement/orgizational structure._ \
+  https://strategy.wikimedia.org/wiki/Wikimedia_movement/Organizational_structure
++ Wikimedia Strategic Planning. (2024). _Wikimedia Enterprise._ \
+  https://meta.wikimedia.org/wiki/Wikimedia_Enterprise
++ Wikimedia Meta-wiki. (2024). _Wikimedia Foundation._ \
+  https://meta.wikimedia.org/wiki/Wikimedia_Foundation
++ Wikimedia API Portal. (n.d.). _Wikimedia Foundation._ \
+  https://api.wikimedia.org/wiki/Core_REST_API
++ Liogienė, T. (n.d.). _Informacijos sistemos ir jų sauga_ \
+  https://vma2023.viko.lt/course/view.php?id=726
 
 // ===== ŠALTINIAI =====
 // #pagebreak()
