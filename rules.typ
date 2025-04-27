@@ -47,9 +47,6 @@
         #set block(above: 24pt, below: 18pt)
         #block(it)  
     ]
-    // ===== Sąrašai =====
-
-    set enum(numbering: "1.1.", full: true)
 
     // ===== Tekstas ===== 
     set text(

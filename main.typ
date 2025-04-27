@@ -8,8 +8,8 @@
 #outline( title: [ Paveikslų sąrašas ], target: figure.where(kind: image) )
 #outline( title: [ Lentelių sąrašas ],  target: figure.where(kind: table) )
 
-#pagebreak()
 
+<<<<<<< HEAD
 = Įvadas
 
 
@@ -135,6 +135,10 @@ Kiti trys naudotojai gali atlikti įvairius veiksmus. Kadangi Prisijungęs naudo
 Iš panaudos atvejų matricos matosi, kad visi reikalavimai yra padengti.
 
 #pagebreak()
+=======
+= Skyrius
+== Poskyris
+>>>>>>> parent of 47685c5 (uml)
 
 = Scenarijai
 
