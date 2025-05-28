@@ -30,6 +30,7 @@
         numbering: "1.",
     )
     show heading.where(level: 1): it => [
+        #pagebreak()
         #set align(center)
         #set text(14pt, weight: "bold")
         #set block(spacing: 20pt)
@@ -70,6 +71,7 @@
         #counter(figure.where(kind: image)).get().first() pav. #box[#it.caption]
     ] 
     show figure.where(kind: table): it => [
+        #set align(left)
         #counter(figure.where(kind: image)).get().first() lentelė. #box[#it.caption]
         #v(-1em)
         #it.body
@@ -87,7 +89,9 @@
             #text(weight: "bold")[#it]
         ]
     ]
-    
+      
+    show link: it => underline(text(fill: blue)[#it])
+
     // ===== Lentelės ===== 
     set table(align: left)
     // show table.cell.where(y: 0): strong    Just use *text* inside the table.header, this affects the title page...
